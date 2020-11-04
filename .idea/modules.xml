@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/Ambulance Users.iml" filepath="$PROJECT_DIR$/Ambulance Users.iml" group="Ambulance Users" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Ambulance_Users.iml" filepath="$PROJECT_DIR$/.idea/modules/Ambulance_Users.iml" group="Ambulance_Users" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Ambulance Users/app" />
     </modules>
   </component>

@@ -1,8 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.amalChandran:trail-android:v1.51@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f993e96e048ac63d04972e87090d42dd/jetified-trail-android-v1.51/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/f993e96e048ac63d04972e87090d42dd/jetified-trail-android-v1.51/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d429183d158356395cfdb45525dace93/jetified-trail-android-v1.51/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d429183d158356395cfdb45525dace93/jetified-trail-android-v1.51/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d429183d158356395cfdb45525dace93/jetified-trail-android-v1.51/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

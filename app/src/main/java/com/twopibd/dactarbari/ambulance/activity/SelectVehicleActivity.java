@@ -303,6 +303,8 @@ public class SelectVehicleActivity extends AppCompatActivity {
                         String currentCityName = myfunctions.getCityName(context, targetLatlong);
                         Log.i("mkl_feb",currentCityName);
 
+                        Toast.makeText(context, "im here stuck", Toast.LENGTH_SHORT).show();
+
 
                         if (currentCityName != null && currentCityName.length() > 0) {
                             //.orderByChild("city").equalTo(currentCityName)
@@ -322,7 +324,7 @@ public class SelectVehicleActivity extends AppCompatActivity {
                                             Log.i("mkl__", child.getValue().toString());
                                             Log.i("mkl_16_feb","here 2");
                                             Long status = (Long) child.child("isOnService").getValue();
-                                            if (status!=null&&status == 0) {
+                                            if (status!=null&&status == 1) {
                                                 Log.i("mkl_16_feb","here 3");
                                                 Log.i("mkl_query", child.getKey());
                                                 Double lat = (Double) child.child("lat").getValue();
@@ -427,6 +429,8 @@ public class SelectVehicleActivity extends AppCompatActivity {
                                                     }
                                                 });
                                             } else {
+                                                Log.i("mkl_16_feb","was null");
+
                                                 compleatedCount++;
                                             }
 
